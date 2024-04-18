@@ -1,0 +1,87 @@
+header{
+    background-color: #244855;
+    margin-top: -5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+    
+}
+
+header nav button{
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 25px;
+    background-color: #DD5746;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+body{
+    background-color: #135D66;
+} 
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+}
+.home img{
+      width: 400px;
+      height: 600px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 380px;
+    border: 5px solid black;
+    padding: 15px;
+    background-color: #244855;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: rgb(236, 226, 226);
+}
+.right{
+    font-size: 20px;
+    width: auto;
+   
+}
+
+.menu{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+}
+
+th,td{
+    border: 5px solid rgb(177, 172, 172);
+    padding: 10px;
+    width: 200px;
+    background-color:  #244855;
+}
